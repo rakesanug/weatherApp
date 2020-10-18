@@ -12,6 +12,7 @@ import { SET_LOCATION } from "../locationReducer";
 })
 export class TopBarComponent implements OnInit {
   loc: string;
+  
   constructor(private store: Store<any>) {}
   ngOnInit() {}
   search(searchForm: NgForm) {
